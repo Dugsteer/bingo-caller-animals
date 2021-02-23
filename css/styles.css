@@ -425,8 +425,7 @@ h4 {
   justify-content: center;
   position: absolute;
   height: 100vh;
-  width: 1200px;
-  margin: auto;
+  width: 100vw;
   top: 0;
   left: 0;
   right: 0;
@@ -451,11 +450,12 @@ h4 {
 
 .loader-container {
   width: 300px;
-  height: 500px; }
+  height: 200px;
+  margin: 15% auto; }
   .loader-container img {
-    height: 70%;
-    width: 70%;
-    margin-left: 15%; }
+    height: 60%;
+    width: 60%;
+    margin: auto; }
 
 .ghost {
   animation: float 3s ease-out infinite; }
